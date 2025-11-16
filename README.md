@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Sortable Tree using DnD Kit
 
-## Getting Started
+A fully customizable, production-ready **sortable tree component** built with **React + Next.js + DnD Kit**.
 
-First, run the development server:
+This project supports:
+
+- 🪄 Drag & drop reordering
+- 🌲 Nested hierarchy (indent/outdent by dragging horizontally)
+- 🔄 Automatic parent/child depth recalculation
+- 🔗 Drag parent → children follow
+- 🎨 Custom colors, labels, and checkboxes
+- ⚡ Smooth, predictable sorting
+- 📦 Clean utilities: flatten, rebuild, find descendants, etc.
+
+---
+
+## 🎥 Demo
+
+![Sortable Tree Demo](./docs/demo.gif)
+
+---
+
+## 🚀 Features
+
+- 🔥 Drag & drop powered by **@dnd-kit/core**
+- ↕️ Vertical sorting with smooth transitions
+- 👉 Horizontal drag → indentation logic
+- 🌳 Real hierarchical tree structure (not just flat arrays)
+- 🧠 Auto-correct depth & parent relationships after drag
+- 🎨 Customizable UI (colors, labels, checkbox states)
+- ⚡ Pure TypeScript implementation
+- 📁 Utilities included:
+  - `flattenTree()`
+  - `buildTree()`
+  - `getDescendantIds()`
+  - `findItem()`
+  - `getItemIds()`
+
+---
+
+## 📦 Installation
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
