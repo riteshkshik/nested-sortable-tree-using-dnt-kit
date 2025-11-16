@@ -16,7 +16,13 @@ This project supports:
 
 ## 🎥 Demo
 
-![Sortable Tree Demo](./docs/demo.gif)
+<video src="https://github.com/user-attachments/assets/f28569eb-43b3-481b-a09a-6566d56c3f9d" 
+       width="600" 
+       controls 
+       autoplay 
+       loop 
+       muted>
+</video>
 
 ---
 
